@@ -24,7 +24,7 @@ function App() {
       <span className="linkbio__items-icon image__fb"></span>
         <a
           className="linkbio__items-link"
-          href="https://www.instagram.com/jagerthejager"
+          href="https://www.facebook.com/profile.php?id=100092571115747"
           target="_blank"
         >
           <p>Facebook chính của xốp</p>
@@ -36,7 +36,7 @@ function App() {
       <span className="linkbio__items-icon image__fb"></span>
         <a
           className="linkbio__items-link"
-          href="https://www.instagram.com/jagerthejager"
+          href="https://www.facebook.com/jagerthejagerxop"
           target="_blank"
         >
           <p>Facebook phụ của xốp</p>
@@ -48,10 +48,10 @@ function App() {
       <span className="linkbio__items-icon image__zalo"></span>
         <a
           className="linkbio__items-link"
-          href="https://www.instagram.com/jagerthejager"
+          href="https://zalo.me/0927183879"
           target="_blank"
         >
-          <p>Zalo của xốp</p>
+          <p>Zalo của xốp - 0927183879</p>
         </a>
       </div>
 
@@ -60,7 +60,7 @@ function App() {
       <span className="linkbio__items-icon image__shopee"></span>
         <a
           className="linkbio__items-link"
-          href="https://www.instagram.com/jagerthejager"
+          href="https://shopee.vn/jagerthejager"
           target="_blank"
         >
           <p>Shopee của xốp</p>
