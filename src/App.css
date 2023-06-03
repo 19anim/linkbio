@@ -9,6 +9,7 @@ html, body{
 
 *{
   box-sizing: border-box;
+  transition: 0.3s ease-out;
 }
 
 p{
@@ -32,9 +33,8 @@ body{
 .border{
   border: 1px solid #AAC8A7;
   border-radius: 50px;
-  width: 90%;
-  margin-top: 15px;
   background-color: rgba(227, 242, 193, 0.7);
+  padding: 5px;
   color: black;
 }
 
@@ -46,11 +46,17 @@ body{
   color: #AAC8A7;
 }
 
+.linkbio__items-container{
+  width: 90%;
+  margin-top: 15px;
+}
+
 /* Link bio item */
 .linkbio__items{
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 10px;
   text-align: center;
   font-family: 'Baloo 2', 'Bungee', cursive;
   font-weight: 500;
@@ -58,7 +64,6 @@ body{
 
 .linkbio__items-link{
   display: block;
-  padding: 10px;
   text-decoration: none;
 }
 
@@ -94,3 +99,9 @@ body{
   background-image: url("../src/assets/shopee.png");
 }
 /* ----------------------------------------------------------- */
+
+@media screen and (min-width: 900px){
+  .linkbio__items-container{
+    width: 50%;
+  }
+}
