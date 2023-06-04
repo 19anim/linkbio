@@ -5,20 +5,6 @@ function App() {
     <div className="App">
       <div className="linkbio__title">Ở ĐÂY IEM BÁN THUỐC HO CON HƯƠU XỐP</div>
 
-      {/* INSTAGRAM LINK */}
-      <div className="linkbio__items-container">
-        <a
-          className="linkbio__items-link"
-          href="https://www.instagram.com/jagerthejager"
-          target="_blank"
-        >
-          <div className="linkbio__items border">
-            <span className="linkbio__items-icon image__ig"></span>
-            <p>Instagram xốp nè</p>
-          </div>
-        </a>
-      </div>
-
       {/* FACEBOOK LINK */}
       <div className="linkbio__items-container">
         <a
@@ -46,6 +32,20 @@ function App() {
           </div>
         </a>
       </div>
+      
+      {/* INSTAGRAM LINK */}
+      <div className="linkbio__items-container">
+        <a
+          className="linkbio__items-link"
+          href="https://www.instagram.com/jagerthejager"
+          target="_blank"
+        >
+          <div className="linkbio__items border">
+            <span className="linkbio__items-icon image__ig"></span>
+            <p>Instagram xốp nè</p>
+          </div>
+        </a>
+      </div>
 
       {/* FACEBOOK LINK */}
       <div className="linkbio__items-container">
@@ -70,7 +70,7 @@ function App() {
         >
           <div className="linkbio__items border">
             <span className="linkbio__items-icon image__zalo"></span>
-            <p>Zalo của xốp - 0927183879</p>
+            <p>Zalo của xốp</p>
           </div>
         </a>
       </div>
